@@ -7,10 +7,21 @@
 }
 
 html {
-    //defines what 1rem is
+    // Sets 1rem = 10px
     font-size: 62.5%;
 }
 
 body {
-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Corn'
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Corn';
+    src: url('./assets/CornDemo-Regular.ttf')
 }

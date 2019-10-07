@@ -1,12 +1,11 @@
 import React from 'react';
+
+import HomePage from './pages/homepage.component';
+
 import './App.scss';
 
-function App() {
-  return (
-    <div>
-      <h1>Mike Lee</h1>
-    </div>
-  );
-}
+const App = () => (
+  <HomePage />
+);
 
 export default App;
