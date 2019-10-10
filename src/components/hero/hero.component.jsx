@@ -7,7 +7,7 @@ import './hero.styles.scss';
 const Hero = () => (
     <div className='hero'>
         <a href='https://www.github.com/mikelee'>
-            <img className='github-icon' src={GitHubIcon} />
+            <img className='github-icon'  alt='GitHub' src={GitHubIcon} />
         </a>
         <div className='content'>
             <h1 className='name'>Mike Lee</h1>

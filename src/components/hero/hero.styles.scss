@@ -16,8 +16,7 @@
     }
 
     .content {
-        margin: 0 auto;
-        margin-top: 25vh;
+        margin: 25vh auto 0 auto;
         justify-content: center;
 
         & > * {
@@ -73,5 +72,6 @@
     100% {
         opacity: 1;
         transform: translateY(0);
+
     }
 }
