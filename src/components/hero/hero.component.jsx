@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GitHubIcon from '../../assets/GitHub-Mark-Light-64px.png';
+import GitHubIcon from '../../assets/GitHub_Logo_White.png';
 
 import './hero.styles.scss';
 
