@@ -1,0 +1,93 @@
+.contact-section {
+    color: rgb(110,181,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4rem;
+    margin-top: -10vh;
+    background: linear-gradient(rgba(#42568f,.9), rgba(#41568f,.9)), url(../../assets/20804.jpg);
+    background-repeat: none;
+
+    .title {
+        font-size: 5rem;
+        margin: 6rem 0;
+        color: white;
+    }
+
+    .statement {
+        font-size: 2.5rem;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 8rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-bottom: 4rem;
+
+        & input {
+            border: 0;
+            text-align: center;
+            outline: none;
+            background: transparent;
+            color: white;
+            font-size: 2rem;
+            border-bottom: rgb(110,181,255) 1px solid;
+            padding-bottom: 1rem;
+            margin-bottom: 4rem;
+
+            &::placeholder {
+                color: rgba(230,230,230,.5);
+            }
+        }
+
+        textarea {
+            border: rgb(110,181,255) .1rem solid;
+            border-radius: .5rem;
+            padding: 1rem;
+            font-size: 2rem;
+            background: transparent;
+            outline: none;
+            color: white;
+            margin-bottom: 2rem;
+
+            &::placeholder {
+                color: rgba(230,230,230,.5);
+            }
+        }
+
+        & button[type='submit'] {
+            background-color: rgb(110,181,255);
+            color: white;
+            font-size: 1.6rem;
+            border: none;
+            border-radius: 2rem;
+            height: 4rem;
+            width: 16rem;
+            outline: none;
+            transition: all .2s;
+
+            &:hover {
+                transform: translateY(-.4rem);
+                box-shadow: 0rem 1rem 3rem rgba(black, .3);
+            }
+
+            &:active {
+                transform: translateY(0);
+                box-shadow: none;
+            }
+        }
+
+        .form-buttons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .attribution {
+        margin-bottom: .5rem;
+    }
+}
