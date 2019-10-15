@@ -1,0 +1,308 @@
+.skills-section {
+  margin-top: 4rem;
+  padding-bottom: 10rem;
+  color: rgb(110,181,255);
+  display: flex;
+  flex-direction: column;
+
+  .title {
+      font-size: 5rem;
+      margin-bottom: 4rem;
+      margin-left: 8rem;
+      position: relative;
+
+      &:after {
+        content:''; 
+        width: 1rem; 
+        height: 100%; 
+        background: rgb(110,181,255); 
+        position: absolute; 
+        left: -2rem;
+        bottom: 0rem;
+      }
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text {
+    font-size: 6rem;
+    align-self: center;
+    margin-left: 14rem;
+    opacity: .7;
+  }
+
+
+  /* Hexagon Container */
+
+  /* Hexagon appearance */
+  --hex-width: 12rem; 
+  --hex-between: 1rem;
+  
+  
+  /* Other hexagon dimentions */
+  --hex-height: calc(var(--hex-width) / 1.73 /* sqrt(3) */);
+  --hex-margin: calc(var(--hex-width) / 2);
+  --hex-border: calc(var(--hex-margin) / 1.73 /* sqrt(3) */);
+  --hex-transition: all .2s ease;
+  
+
+  /* Colors */
+  --color-hex-default: #000000;
+  --color-hex-hover:   #FFFFFF;
+  --color-bootstrap:   #563D7C;
+  --color-css:         #1572B6;
+  --color-git:         #F14E32;
+  --color-html:        #E34F26;
+  --color-javascript:  #F7DF1E;
+  --color-mongodb:     #47A248;
+  --color-mysql:       #4479A1;
+  --color-nodejs:      #339933;
+  --color-react:       #61DAFB;
+  --color-sass:        #CC6699;
+
+
+  /* Hexagons */
+  .hexagon-container {
+    align-self: flex-end;
+    margin-right: 15rem;
+    display: grid;
+    grid-template-columns: var(--hex-width) var(--hex-width) var(--hex-width);
+    grid-auto-rows: calc(var(--hex-width) - 28.87px/2);
+    grid-gap: var(--hex-between) var(--hex-between);
+    padding-bottom: var(--hex-border);
+  }
+
+  .hexagon {
+    align-items: center;
+    background-color: var(--color-hex-default);
+    cursor: pointer;
+    display: flex;
+    fill: white;
+    height: var(--hex-height);
+    justify-content: center;
+    margin: var(--hex-border) 0;
+    position: relative;
+    transition: var(--hex-transition);
+    width: var(--hex-width);
+  }
+
+  .hexagon::after,
+  .hexagon::before {
+    border-left: var(--hex-margin) solid transparent;
+    border-right: var(--hex-margin) solid transparent;
+    content: "";
+    left: 0;
+    position: absolute;
+    transition: var(--hex-transition);
+    width: 0;
+  }
+  .hexagon::after {
+    border-top: var(--hex-border) solid var(--color-hex-default);
+    top: 100%;
+    width: 0;
+  }
+  .hexagon::before {
+    border-bottom: var(--hex-border) solid var(--color-hex-default);
+    bottom: 100%;
+  }
+
+  .hexagon:hover {
+    background-color: var(--color-hex-hover);
+  }
+  .hexagon:hover::after,
+  .hexagon:hover::before {
+    border-top-color: var(--color-hex-hover);
+    border-bottom-color: var(--color-hex-hover);
+  }
+
+  .hexagon:nth-child(6n + 4),
+  .hexagon:nth-child(6n + 5),
+  .hexagon:nth-child(6n + 6),
+    {margin-left: calc(var(--hex-width) / 2 + var(--hex-between) / 2);
+  }
+
+  .hexagon > svg {
+    height: 75%;
+    transition: var(--hex-transition);
+  }
+
+
+  /* Colors */
+
+  /* Bootstrap */
+  .color-bootstrap {
+    background-color: var(--color-bootstrap);
+  }
+  .color-bootstrap::after,
+  .color-bootstrap::before {
+    border-top-color: var(--color-bootstrap);
+    border-bottom-color: var(--color-bootstrap);
+  }
+  .color-bootstrap:hover {
+    fill: var(--color-bootstrap);
+  }
+
+  /* CSS */
+  .color-css {
+    background-color: var(--color-css);
+  }
+  .color-css::after,
+  .color-css::before {
+    border-top-color: var(--color-css);
+    border-bottom-color: var(--color-css);
+  }
+  .color-css:hover {
+    fill: var(--color-css);
+  }
+
+  /* Git */
+  .color-git {
+    background-color: var(--color-git);
+  }
+  .color-git::after,
+  .color-git::before {
+    border-top-color: var(--color-git);
+    border-bottom-color: var(--color-git);
+  }
+  .color-git:hover {
+    fill: var(--color-git);
+  }
+
+  /* HTML */
+  .color-html {
+    background-color: var(--color-html);
+  }
+  .color-html::after,
+  .color-html::before {
+    border-top-color: var(--color-html);
+    border-bottom-color: var(--color-html);
+  }
+  .color-html:hover {
+    fill: var(--color-html);
+  }
+
+  /* Javascript */
+  .color-javascript {
+    background-color: var(--color-javascript);
+  }
+  .color-javascript::after,
+  .color-javascript::before {
+    border-top-color: var(--color-javascript);
+    border-bottom-color: var(--color-javascript);
+  }
+  .color-javascript:hover {
+    fill: var(--color-javascript);
+  }
+
+  /* MongoDB */
+  .color-mongodb {
+    background-color: var(--color-mongodb);
+  }
+  .color-mongodb::after,
+  .color-mongodb::before {
+    border-top-color: var(--color-mongodb);
+    border-bottom-color: var(--color-mongodb);
+  }
+  .color-mongodb:hover {
+    fill: var(--color-mongodb);
+  }
+
+  /* MySQL */
+  .color-mysql {
+    background-color: var(--color-mysql);
+  }
+  .color-mysql::after,
+  .color-mysql::before {
+    border-top-color: var(--color-mysql);
+    border-bottom-color: var(--color-mysql);
+  }
+  .color-mysql:hover {
+    fill: var(--color-mysql);
+  }
+
+  /* Node.js */
+  .color-nodejs {
+    background-color: var(--color-nodejs);
+  }
+  .color-nodejs::after,
+  .color-nodejs::before {
+    border-top-color: var(--color-nodejs);
+    border-bottom-color: var(--color-nodejs);
+  }
+  .color-nodejs:hover {
+    fill: var(--color-nodejs);
+  }
+
+  /* React */
+  .color-react {
+    background-color: var(--color-react);
+  }
+  .color-react::after,
+  .color-react::before {
+    border-top-color: var(--color-react);
+    border-bottom-color: var(--color-react);
+  }
+  .color-react:hover {
+    fill: var(--color-react);
+  }
+
+  /* SASS */
+  .color-sass {
+    background-color: var(--color-sass);
+  }
+  .color-sass::after,
+  .color-sass::before {
+    border-top-color: var(--color-sass);
+    border-bottom-color: var(--color-sass);
+  }
+  .color-sass:hover {
+    fill: var(--color-sass);
+  }
+
+
+  /* Text colors on hover */
+  .bootstrap {
+    color: var(--color-bootstrap);
+  }
+  
+  .css3 {
+    color: var(--color-css);
+  }
+  
+  .git {
+    color: var(--color-git);
+  }
+  
+  .html5 {
+    color: var(--color-html);
+  }
+  
+  .javascript {
+    color: var(--color-javascript);
+  }
+  
+  .mongodb {
+    color: var(--color-mongodb);
+  }
+  
+  .mysql {
+    color: var(--color-mysql);
+  }
+  
+  .nodejs {
+    color: var(--color-nodejs);
+  }
+  
+  .react {
+    color: var(--color-react);
+  }
+  
+  .sass {
+    color: var(--color-sass);
+  }
+}
+
+
