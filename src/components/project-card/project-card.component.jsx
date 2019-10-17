@@ -2,8 +2,8 @@ import React from 'react';
 
 import './project-card.styles.scss';
 
-const ProjectCard = ({ name, img, tech, description, skew }) => (
-    <div className={`project-card ${skew ? "skew" : ""}`} >
+const ProjectCard = ({ name, img, tech, description, index }) => (
+    <div className={`project-card ${index % 2 !== 0 ? "alternate" : ""}`} >
         <div className='content'>
             <div className='project-info'>
                 <h3 className='project-title'>{name}</h3>

@@ -1,11 +1,28 @@
 .projects-section {
     color: rgb(110,181,255);
-    margin-top: 4rem;
+    padding: 10rem 0;
+    -webkit-clip-path: polygon(0 4%, 100vw 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    background-color: rgb(110,181,255);
+    color: white;
+
     
     .title {
         font-size: 5rem;
         text-align: center;
         margin-bottom: 4rem;
+        color: #42568f;
+        position: relative;
+
+        &:after {
+            content:''; 
+            width: 1rem; 
+            height: 100%; 
+            background: #42568f; 
+            position: absolute; 
+            left: -2rem;
+            bottom: 0rem;
+          }
     }
 
     .projects-display {
