@@ -5,7 +5,7 @@ import './contact-section.styles.scss';
 const Contact = () => (
     <div className='contact-section'>
         <h3 className='title'>Contact Me</h3>
-        <p className='statement'>Currently looking to join an exciting company </p>
+        <p className='statement'>Currently looking to join an exciting company!</p>
         <form action='https://usebasin.com/f/e94fc554851b' method='POST'>
             <input type='email' name='email' placeholder='Email address' required />
             <textarea name='textarea' rows='12' placeholder="Let's talk..." required></textarea>
