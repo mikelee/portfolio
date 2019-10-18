@@ -2,7 +2,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(152,202,255,.75) 10%, rgba(110,181,255,.75) 50%, rgba(70,161,255,.75) 90%), url(../../assets/FadedCode.png);
+    // background: linear-gradient(90deg, rgba(152,202,255,.75) 10%, rgba(110,181,255,.75) 50%, rgba(70,161,255,.75) 90%), url(../../assets/FadedCode.png);
+    // background: linear-gradient(90deg, rgba(82,132,225,.75) 10%, rgba(40,111,225,.75) 50%, rgba(0,91,225,.75) 90%), url(../../assets/FadedCode.png);
+    background: linear-gradient(90deg, rgba(80,150,225,.75) 10%, rgba(40,110,215,.75) 50%, rgba(0,80,200,.75) 90%), url(../../assets/FadedCode.png);
+    // background: linear-gradient(90deg, rgba(#287dfe,.75) 10%, rgba(#0058d9,.75) 50%, rgba(#0041a1,.75) 90%), url(../../assets/FadedCode.png);
     background-size: cover;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 98vh);
     clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 98vh);
