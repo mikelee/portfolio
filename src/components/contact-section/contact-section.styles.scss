@@ -68,6 +68,7 @@
             width: 16rem;
             outline: none;
             transition: all .2s;
+            margin-left: 3rem;
 
             &:hover {
                 transform: translateY(-.4rem);
@@ -82,12 +83,53 @@
 
         .form-buttons {
             display: flex;
-            justify-content: space-between;
             align-items: center;
         }
     }
 
     .attribution {
         margin-bottom: .5rem;
+    }
+}
+
+:root {
+    @media screen and (max-width: 900px) {
+        .contact-section {
+    
+            .title {
+                font-size: 4em;
+                text-align: center;
+            }
+        
+            .statement {
+                font-size: 2rem;
+            }
+
+            form {
+                width: 75%;
+            }
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .contact-section {
+    
+            .title {
+                font-size: 4em;
+                text-align: center;
+            }
+        
+            .statement {
+                font-size: 2rem;
+            }
+
+            form {
+                width: 90%;
+
+                .form-buttons {
+                    justify-content: space-between;
+                }
+            }
+        }
     }
 }

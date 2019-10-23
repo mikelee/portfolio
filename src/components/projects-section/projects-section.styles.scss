@@ -31,3 +31,14 @@
         align-items: center;
     }
 }
+
+:root {
+    @media screen and (max-width: 600px) {
+        .projects-section {
+            .title {
+                font-size: 4rem;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
