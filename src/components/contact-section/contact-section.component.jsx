@@ -10,7 +10,7 @@ const Contact = () => (
             <input type='email' name='email' placeholder='Email address' required />
             <textarea name='textarea' rows='12' placeholder="Let's talk..." required></textarea>
             <div className='form-buttons'>
-                <div className="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+                <div className="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy" data-size="compact" data-theme="dark"></div>
                 <button type='submit'>Submit</button>
             </div>
         </form>
