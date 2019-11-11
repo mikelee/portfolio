@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b76bfbfb.chunk.css",
+    "main.js": "/portfolio/static/js/main.4ffc22c7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4ffc22c7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.021c856b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.021c856b.js.map",
+    "static/js/2.5b1a06f7.chunk.js": "/portfolio/static/js/2.5b1a06f7.chunk.js",
+    "static/js/2.5b1a06f7.chunk.js.map": "/portfolio/static/js/2.5b1a06f7.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.e6d9c3ac0b168bf4c126a899cd374ad7.js": "/portfolio/precache-manifest.e6d9c3ac0b168bf4c126a899cd374ad7.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.b76bfbfb.chunk.css.map": "/portfolio/static/css/main.b76bfbfb.chunk.css.map",
+    "static/media/contact-section.styles.scss": "/portfolio/static/media/20804.2deabba4.jpg",
+    "static/media/App.scss": "/portfolio/static/media/CovesLight.62a84258.otf",
+    "static/media/hero.styles.scss": "/portfolio/static/media/FadedCode.91432d4e.png",
+    "static/media/GitHub_Logo_White.png": "/portfolio/static/media/GitHub_Logo_White.064ace47.png",
+    "static/media/crown-image.png": "/portfolio/static/media/crown-image.393e4cd5.png",
+    "static/media/me_pic.png": "/portfolio/static/media/me_pic.e51381bc.png",
+    "static/media/mindright-image.png": "/portfolio/static/media/mindright-image.d3bcc15c.png",
+    "static/media/portfolio-image.png": "/portfolio/static/media/portfolio-image.8036e4c9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.021c856b.js",
+    "static/js/2.5b1a06f7.chunk.js",
+    "static/css/main.b76bfbfb.chunk.css",
+    "static/js/main.4ffc22c7.chunk.js"
+  ]
+}
