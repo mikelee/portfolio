@@ -78,6 +78,8 @@
 :root {
     @media screen and (max-width: 900px) {
         .hero {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 92vh, 0 98vh);
+            clip-path: polygon(0 0, 100% 0, 100% 92vh, 0 98vh);
 
             .github-icon {
                 height: 3rem;
