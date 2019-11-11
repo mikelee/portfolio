@@ -8,7 +8,6 @@
   .title {
       font-size: 5rem;
       margin-bottom: 4rem;
-      margin-left: 7rem;
       align-self: center;
   }
 
@@ -22,6 +21,7 @@
     align-self: center;
     margin-left: 2rem;
     opacity: .7;
+    flex-grow: 1;
 
     &:empty:before {
       content: "\200b"; // unicode zero width space character
@@ -276,7 +276,7 @@
     color: var(--color-bootstrap);
   }
   
-  .css3 {
+  .css {
     color: var(--color-css);
   }
   
@@ -284,7 +284,7 @@
     color: var(--color-git);
   }
   
-  .html5 {
+  .html {
     color: var(--color-html);
   }
   
