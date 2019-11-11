@@ -33,6 +33,17 @@
 }
 
 :root {
+    @media screen and (max-width: 900px) {
+        .projects-section {
+            -webkit-clip-path: polygon(0 3%, 100vw 0, 100% 97%, 0 100%);
+            clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+
+            .title {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
     @media screen and (max-width: 600px) {
         .projects-section {
             .title {
