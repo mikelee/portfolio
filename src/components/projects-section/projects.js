@@ -14,15 +14,15 @@ const projects = [
         id: 2,
         name: 'Mind Right',
         img: mindRightImage,
-        description: 'Web app designed to bring users back to a positive mindset. Users sign in and add various quotes/thoughts to their profile. When they need a reminder to stay motivated, Mind Right will generate one of their quotes at random. We often get locked into a mindset. Mind Right penetrates into user\'s minds and brings awareness to other aspects of reality.',
-        tech: ['Javascript, Node.js, EJS, Express, Mongoose, MongoDB, Passport.js']
+        description: 'Keep a postive mindset and stay focused on what matters with MindRight. Add quotes with a background image. Simply click shuffle when you need a reminder and one of your quotes will appear.',
+        tech: ['Javascript, EJS, Node.js, Express, MongoDB, Mongoose, Passport.js']
     },
     {
         id: 3,
         name: 'Crown Clothing',
         img: crownClothingImage,
-        description: 'E-commerce clothing store that allows users to sign in using Firebase, and add/remove items from their cart. State is maintain by using React and Redux. Cart items are memoized using the reselect library.',
-        tech: ['React', 'JSX', 'Redux', 'Firebase']
+        description: 'Browse through clothing collections, add items to your cart, and checkout on this e-commerce clothing website.',
+        tech: ['Javascript', 'React', 'Redux', 'Firebase', 'Stripe']
     }
 ];
 
