@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ff4b6ba99ec581d6637ee67477be51a",
+    "revision": "4f25c540580586345b6615c7faadce86",
     "url": "/index.html"
   },
   {
-    "revision": "c97bf857c6143758b2ee",
-    "url": "/static/css/main.e378fbd0.chunk.css"
+    "revision": "77a96c9469f9ce65a8d8",
+    "url": "/static/css/main.0c372056.chunk.css"
   },
   {
     "revision": "9fe3ab29d92efe9ac6fe",
     "url": "/static/js/2.5b1a06f7.chunk.js"
   },
   {
-    "revision": "c97bf857c6143758b2ee",
-    "url": "/static/js/main.3911bbc2.chunk.js"
+    "revision": "77a96c9469f9ce65a8d8",
+    "url": "/static/js/main.13976e06.chunk.js"
   },
   {
     "revision": "25293dcdd045d2663b65",
@@ -44,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crown-image.b8ffd808.png"
   },
   {
+    "revision": "8eeb583b59ff75d76dbd65495e1d628a",
+    "url": "/static/media/daily-achievements-image.8eeb583b.png"
+  },
+  {
     "revision": "ac538ac6b96a46ce44b0c48ccfab9a83",
     "url": "/static/media/me_pic.ac538ac6.png"
   },
   {
     "revision": "386ca88fb252e6c701530cfe3fdf047d",
     "url": "/static/media/mindright-image.386ca88f.png"
-  },
-  {
-    "revision": "b161c40ba70def12d532fdd8eb739458",
-    "url": "/static/media/portfolio-image.b161c40b.png"
   }
 ]);
