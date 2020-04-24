@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c372056.chunk.css",
+    "main.css": "/static/css/main.2bd5cc58.chunk.css",
     "main.js": "/static/js/main.13976e06.chunk.js",
     "main.js.map": "/static/js/main.13976e06.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67a84473.js",
@@ -8,9 +8,9 @@
     "static/js/2.5b1a06f7.chunk.js": "/static/js/2.5b1a06f7.chunk.js",
     "static/js/2.5b1a06f7.chunk.js.map": "/static/js/2.5b1a06f7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.50883277516987262a7f1197ce9578a0.js": "/precache-manifest.50883277516987262a7f1197ce9578a0.js",
+    "precache-manifest.680aa70343965142f96ec3858bc92a3b.js": "/precache-manifest.680aa70343965142f96ec3858bc92a3b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0c372056.chunk.css.map": "/static/css/main.0c372056.chunk.css.map",
+    "static/css/main.2bd5cc58.chunk.css.map": "/static/css/main.2bd5cc58.chunk.css.map",
     "static/media/contact-section.styles.scss": "/static/media/20804.fd7a8717.jpg",
     "static/media/App.scss": "/static/media/CovesLight.62a84258.otf",
     "static/media/hero.styles.scss": "/static/media/FadedCode.668e3ed9.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.67a84473.js",
     "static/js/2.5b1a06f7.chunk.js",
-    "static/css/main.0c372056.chunk.css",
+    "static/css/main.2bd5cc58.chunk.css",
     "static/js/main.13976e06.chunk.js"
   ]
 }
