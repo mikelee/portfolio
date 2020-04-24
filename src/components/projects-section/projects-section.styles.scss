@@ -39,6 +39,7 @@
             clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
 
             .title {
+                font-size: 4rem;
                 margin-bottom: 2rem;
             }
         }
@@ -47,8 +48,19 @@
     @media screen and (max-width: 600px) {
         .projects-section {
             .title {
-                font-size: 4rem;
                 margin-bottom: 1rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .projects-section {
+            -webkit-clip-path: polygon(0 2%, 100vw 0, 100% 98%, 0 100%);
+            clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
+            padding: 6rem 0;
+
+            .title {
+                font-size: 3rem;
             }
         }
     }
