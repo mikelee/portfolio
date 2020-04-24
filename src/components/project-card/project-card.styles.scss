@@ -1,35 +1,39 @@
 .project-card {
     padding: 8rem 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
+
+    .project-title {
+        font-size: 4rem;
+        text-align: center;
+        margin: 0 auto 5rem auto;
+        width: 80%;
+    }
 
     .content {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 75%;
+        margin: auto;
 
         .project-info {
-            width: 50%;
+            width: 40%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-    
-            .project-title {
-                font-size: 4rem;
-            }
+            justify-content: space-around;
     
             .project-description {
                 font-family: 'Coves';
                 font-size: 3rem;
-                align-self: flex-end;
-                margin: 3rem 6rem 3rem auto;
+                justify-self: center;
+                align-self: center;
+                margin-bottom: 2rem;
             }
     
             .project-tech {
                 font-family: 'Coves';
-                font-size: 2.5rem;
+                font-size: 2.4rem;
+                // justify-self: flex-start;
+                align-self: flex-end;
 
                 & span {
                     color: #42568f;
@@ -55,6 +59,7 @@
         .project-card {
             
             .project-img {
+                height: 60vh;
             }
         }
     }
@@ -62,72 +67,73 @@
     @media screen and (max-width: 900px) {
         .project-card {
 
-            padding: 8rem 0;
-    
-            .content {
-                width: 85%;
-            }
-        
             .project-title {
                 font-size: 3rem;
             }
-            
-            .project-description {
-                font-size: 1.8rem;
-            }
-            
-            .project-tech {
-                font-size: 1.6rem;
-            }
-            
-            .project-img {
-                height: 60vh;
+    
+            .content {
+                width: 85%;
+
+                .project-description {
+                    font-size: 2.4rem;
+                }
+                
+                .project-tech {
+                    font-size: 2rem;
+                }
+                
+                .project-img {
+                    height: 55vh;
+                }
             }
         }
     }
 
-    // @media screen and (max-width: 630px) {
-    //     .project-card {
-            
-    //         .project-img {
-    //             height: 55vh;
-    //         }
-    //     }
-    // }
-    
     @media screen and (max-width: 600px) {
-        .project-card {        
+        .project-card {
+            padding: 6rem 0;
+            
+            .project-title {
+                font-size: 2.4rem;
+                margin-bottom: 3rem;
+            }
 
             .content {
-                width: 92%;
-                display: flex;
                 flex-direction: column;
                 align-items: center;
 
                 .project-info {
                     width: 100%;
                     align-items: center;
-
-                    .project-title {
-                        font-size: 2.5rem;
-                        margin-bottom: 3rem;
-                    }
+                    margin-bottom: 4rem;
             
                     .project-description {
-                        font-size: 1.6rem;
+                        font-size: 2rem;
                         text-align: center;
-                        margin: 0 0 3rem 0;
+                        margin-bottom: 2rem;
                     }
 
                     .project-tech {
-                        font-size: 1.4rem;
+                        font-size: 1.6rem;
+                        align-self: center;
                         text-align: center;
-                        margin-bottom: 3rem;
                     }
                 }
 
                 .project-img {
                     height: 60vh;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .project-card {
+
+            .content {
+
+                .project-img {
+                    height: 40vh;
                 }
             }
         }
