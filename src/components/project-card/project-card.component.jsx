@@ -2,9 +2,9 @@ import React from 'react';
 
 import './project-card.styles.scss';
 
-const ProjectCard = ({ name, img, tech, description, index }) => (
+const ProjectCard = ({ name, img, description, tech, url, index }) => (
     <div className={`project-card ${index !== 0 ? "alternate" : ""}`} >
-        <h3 className='project-title'>{name}</h3>
+        <a className='project-title' href={`${url}`} target="_blank" rel="noopener noreferrer">{name}</a>
         <div className='content'>
             <div className='project-info'>
                 <p className='project-description'>{description}</p>
