@@ -1,11 +1,11 @@
 .hero {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 99vh;
     background: linear-gradient(90deg, rgba(80,150,225,.75) 10%, rgba(40,110,215,.75) 50%, rgba(0,80,200,.75) 90%), url(../../assets/FadedCode.png);
     background-size: cover;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 98vh);
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 98vh);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6rem), 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6rem), 0 100%);
 
     .github-icon {
         height: 4rem;
@@ -78,8 +78,6 @@
 :root {
     @media screen and (max-width: 900px) {
         .hero {
-            -webkit-clip-path: polygon(0 0, 100% 0, 100% 92vh, 0 98vh);
-            clip-path: polygon(0 0, 100% 0, 100% 92vh, 0 98vh);
 
             .github-icon {
                 height: 3rem;
@@ -100,6 +98,8 @@
     
     @media screen and (max-width: 600px) {
         .hero {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4rem), 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4rem), 0 100%);
             
             .github-icon {
                 height: 3rem;

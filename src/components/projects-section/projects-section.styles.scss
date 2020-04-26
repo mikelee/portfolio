@@ -1,8 +1,8 @@
 .projects-section {
     color: rgb(110,181,255);
-    padding: 10rem 0;
-    -webkit-clip-path: polygon(0 4%, 100vw 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+    padding: 6rem 0;
+    -webkit-clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
+    clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
     background-color: rgb(110,181,255);
     color: white;
 
@@ -10,7 +10,7 @@
     .title {
         font-size: 5rem;
         text-align: center;
-        margin-bottom: 4rem;
+        margin-top: 4rem;
         color: #42568f;
         position: relative;
 
@@ -33,34 +33,23 @@
 }
 
 :root {
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 600px) {
         .projects-section {
-            -webkit-clip-path: polygon(0 3%, 100vw 0, 100% 97%, 0 100%);
-            clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+            -webkit-clip-path: polygon(0 4rem, 100% 0, 100% calc(100% - 4rem), 0 100%);
+            clip-path: polygon(0 4rem, 100% 0, 100% calc(100% - 4rem), 0 100%);
+            padding: 4rem 0;
 
             .title {
                 font-size: 4rem;
-                margin-bottom: 2rem;
-            }
-        }
-    }
-
-    @media screen and (max-width: 600px) {
-        .projects-section {
-            .title {
-                margin-bottom: 1rem;
             }
         }
     }
 
     @media screen and (max-width: 480px) {
         .projects-section {
-            -webkit-clip-path: polygon(0 2%, 100vw 0, 100% 98%, 0 100%);
-            clip-path: polygon(0 2%, 100% 0, 100% 98%, 0 100%);
-            padding: 6rem 0;
 
             .title {
-                font-size: 3rem;
+                font-size: 3.6rem;
             }
         }
     }
