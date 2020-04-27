@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f7068d590c528ce931ec271239afbd0",
+    "revision": "8b71968ff25f1d9b87df29d842ce3101",
     "url": "/index.html"
   },
   {
-    "revision": "058215689f253e358fca",
-    "url": "/static/css/main.31ee5cdf.chunk.css"
+    "revision": "f88d67ea697c713fb884",
+    "url": "/static/css/main.742daa64.chunk.css"
   },
   {
     "revision": "9fe3ab29d92efe9ac6fe",
     "url": "/static/js/2.5b1a06f7.chunk.js"
   },
   {
-    "revision": "058215689f253e358fca",
-    "url": "/static/js/main.1e0db692.chunk.js"
+    "revision": "f88d67ea697c713fb884",
+    "url": "/static/js/main.b32a901f.chunk.js"
   },
   {
     "revision": "25293dcdd045d2663b65",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/crown-image.b8ffd808.png"
   },
   {
-    "revision": "0ce88547234cd0478261ca7aa45e8104",
-    "url": "/static/media/daily-achievements-image.0ce88547.png"
+    "revision": "11116a8ec8d86a5fe239ee7e9ce69c57",
+    "url": "/static/media/daily-achievements-image.11116a8e.png"
   },
   {
     "revision": "ac538ac6b96a46ce44b0c48ccfab9a83",
