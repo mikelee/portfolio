@@ -1,9 +1,11 @@
+@import '../../variables';
+
 .hero {
     display: flex;
     flex-direction: column;
     height: 99vh;
-    background: linear-gradient(90deg, rgba(80,150,225,.75) 10%, rgba(40,110,215,.75) 50%, rgba(0,80,200,.75) 90%), url(../../assets/FadedCode.png);
     background-size: cover;
+    background: linear-gradient(90deg, rgba($color-light, 0.95) 10%, rgba($color-primary, 0.95) 50%, rgba($color-dark, 0.95) 90%), url(../../assets/waterLines.jpg);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6rem), 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6rem), 0 100%);
 
@@ -29,6 +31,7 @@
         }
 
         .description {
+            color: $color-accent;
             font-size: 2rem;
             text-align: center;
             opacity: 0;

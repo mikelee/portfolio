@@ -1,19 +1,22 @@
+@import '../../variables';
+
 .contact-section {
-    color: rgb(110,181,255);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 8rem;
-    margin-top: -8rem;
-    background: linear-gradient(rgba(#42568f,.9), rgba(#41568f,.9)), url(../../assets/20804.jpg);
+    padding-top: 10rem;
+    margin-top: -10rem;
+    background: linear-gradient(rgba($color-dark,.9), rgba($color-darker,.9)), url(../../assets/20804.jpg);
     background-repeat: none;
 
     .title {
         font-size: 5rem;
         margin: 4rem 0 6rem 0;
         color: white;
-        width: 80%;
+        max-width: 80%;
         text-align: center;
+        padding-left: 2rem;
+        border-left: $color-accent 1rem solid;
     }
 
     .statement {
@@ -36,17 +39,17 @@
             background: transparent;
             color: white;
             font-size: 2rem;
-            border-bottom: rgb(110,181,255) 1px solid;
+            border-bottom: $color-light 1px solid;
             padding-bottom: 1rem;
             margin-bottom: 4rem;
 
             &::placeholder {
-                color: rgba(230,230,230,.5);
+                color: $color-light;
             }
         }
 
         textarea {
-            border: rgb(110,181,255) .1rem solid;
+            border: $color-light .1rem solid;
             border-radius: .5rem;
             padding: 1rem;
             font-size: 2rem;
@@ -56,12 +59,12 @@
             margin-bottom: 2rem;
 
             &::placeholder {
-                color: rgba(230,230,230,.5);
+                color: $color-light;
             }
         }
 
         & button[type='submit'] {
-            background-color: rgb(110,181,255);
+            background-color: $color-light;
             color: white;
             font-size: 1.6rem;
             border: none;

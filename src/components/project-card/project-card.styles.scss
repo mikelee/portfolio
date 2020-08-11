@@ -1,3 +1,5 @@
+@import '../../variables';
+
 .project-card {
     display: flex;
     flex-direction: column;
@@ -38,7 +40,7 @@
                 align-self: flex-end;
 
                 & span {
-                    color: #42568f;
+                    color: $color-dark;
                 }
             }
         }
@@ -53,7 +55,7 @@
 }
 
 .alternate {
-    border-top: #42568f 1rem solid;
+    border-top: $color-dark 1rem solid;
 }
 
 :root {

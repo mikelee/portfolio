@@ -1,18 +1,23 @@
+@import '../../variables';
+
 .projects-section {
-    color: rgb(110,181,255);
+    color: white;
+    display: flex;
+    flex-direction: column;
     padding: 6rem 0;
     -webkit-clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
     clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
-    background-color: rgb(110,181,255);
-    color: white;
-
+    background-color: $color-primary;
     
     .title {
+        color: $color-dark;
         font-size: 5rem;
         text-align: center;
+        margin: auto;
         margin-top: 4rem;
-        color: #42568f;
-        position: relative;
+        max-width: 80%;
+        padding-left: 2rem;
+        border-left: $color-accent 1rem solid;
 
         &:after {
             content:''; 
