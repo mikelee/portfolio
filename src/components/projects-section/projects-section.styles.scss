@@ -2,49 +2,58 @@
 
 .projects-section {
     color: white;
+    background-color: $color-primary;
     display: flex;
     flex-direction: column;
-    padding: 6rem 0;
+    align-items: center;
     -webkit-clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
     clip-path: polygon(0 6rem, 100% 0, 100% calc(100% - 6rem), 0 100%);
-    background-color: $color-primary;
+    padding: 6rem 0;
     
-    .title {
-        color: $color-dark;
+    &-title {
         font-size: 5rem;
         text-align: center;
-        margin: auto;
-        margin-top: 4rem;
         max-width: 80%;
+        margin: 4rem auto;
         padding-left: 2rem;
         border-left: $color-accent 1rem solid;
-
-        &:after {
-            content:''; 
-            width: 1rem; 
-            height: 100%; 
-            background: #42568f; 
-            position: absolute; 
-            left: -2rem;
-            bottom: 0rem;
-          }
     }
 
-    .projects-display {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    &-display {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 8rem;
+        row-gap: 8rem;
     }
 }
 
 :root {
+    @media screen and (max-width: 900px) {
+        .projects-section {
+            
+            &-display {
+                column-gap: 6rem;
+                row-gap: 6rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .projects-section {
+            
+            &-display {
+                grid-template-columns: 1fr;
+                column-gap: 0;
+                row-gap: 4rem;
+            }
+        }
+    }
+
     @media screen and (max-width: 600px) {
         .projects-section {
-            -webkit-clip-path: polygon(0 4rem, 100% 0, 100% calc(100% - 4rem), 0 100%);
-            clip-path: polygon(0 4rem, 100% 0, 100% calc(100% - 4rem), 0 100%);
-            padding: 4rem 0;
-
-            .title {
+            
+            &-title {
                 font-size: 4rem;
             }
         }
@@ -53,7 +62,7 @@
     @media screen and (max-width: 480px) {
         .projects-section {
 
-            .title {
+            &-title {
                 font-size: 3.6rem;
             }
         }

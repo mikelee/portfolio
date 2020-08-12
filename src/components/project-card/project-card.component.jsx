@@ -2,20 +2,20 @@ import React from 'react';
 
 import './project-card.styles.scss';
 
-const ProjectCard = ({ name, img, description, tech, url, index }) => (
-    <div className={`project-card ${index !== 0 ? "alternate" : ""}`} >
-        <a className='project-title' href={`${url}`} target="_blank" rel="noopener noreferrer">{name}</a>
-        <div className='content'>
-            <div className='project-info'>
-                <p className='project-description'>{description}</p>
-                <p className='project-tech'>
-                    <span>Tech used: </span>
-                    {tech.join(', ')}
-                </p>
-            </div>
-            <img className='project-img'  alt='project' src={img} />
+const ProjectSquare = ({ name, img, description, tech, url }) => (
+    <a className='project-square' href={`${url}`} target="_blank" rel="noopener noreferrer">
+        <div className='project-square-side project-square-side-front'>
+            <img className='project-img' alt='project' src={img} />
         </div>
-    </div>
+        <div className='project-square-side project-square-side-back'>
+            <h4 className='project-name'>{name}</h4>
+            <p className='project-description'>{description}</p>
+            <div className='tech-section'>
+                <p className='tech-used'>tech used:</p>
+                <p className='tech-list'>{tech}</p>
+            </div>
+        </div>
+    </a>
 );
 
-export default ProjectCard;
+export default ProjectSquare;
