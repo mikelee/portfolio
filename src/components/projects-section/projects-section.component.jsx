@@ -11,7 +11,7 @@ const ProjectsSection = () => (
         <h3 className='projects-section-title'>Projects</h3>
         <div className='projects-section-display'>
             {
-                projects.map((project => <ProjectCard key={project.id} name={project.name} img={project.img}  description={project.description} tech={project.tech} url={project.url} />))
+                projects.map((project => <ProjectCard key={project.id} {...project} />))
             }
         </div>
     </div>
