@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "620dced0e4eb81bbf39fba65e757c19b",
+    "revision": "d670b53e443d5bc719d3e045273a0bbb",
     "url": "/index.html"
   },
   {
-    "revision": "1f10b6223db9c564f936",
-    "url": "/static/css/main.4f2e3a5e.chunk.css"
+    "revision": "c3095bda9afe5b523629",
+    "url": "/static/css/main.512ae662.chunk.css"
   },
   {
     "revision": "9fe3ab29d92efe9ac6fe",
     "url": "/static/js/2.5b1a06f7.chunk.js"
   },
   {
-    "revision": "1f10b6223db9c564f936",
-    "url": "/static/js/main.b32a901f.chunk.js"
+    "revision": "c3095bda9afe5b523629",
+    "url": "/static/js/main.33e89a05.chunk.js"
   },
   {
     "revision": "25293dcdd045d2663b65",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62a8425826d8c50b5b4784779e20114b",
     "url": "/static/media/CovesLight.62a84258.otf"
-  },
-  {
-    "revision": "668e3ed9256640840e78bf8ecccd1cef",
-    "url": "/static/media/FadedCode.668e3ed9.png"
   },
   {
     "revision": "064ace4777ac86d7627f455f36975452",
@@ -54,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "386ca88fb252e6c701530cfe3fdf047d",
     "url": "/static/media/mindright-image.386ca88f.png"
+  },
+  {
+    "revision": "bc84c14063c037b99984c0f22c559b55",
+    "url": "/static/media/waterLines.bc84c140.jpg"
   }
 ]);
