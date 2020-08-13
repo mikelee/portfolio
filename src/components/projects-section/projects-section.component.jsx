@@ -2,7 +2,7 @@ import React from 'react';
 
 import projects from './projects';
 
-import ProjectCard from '../project-square/project-square.component';
+import ProjectCard from '../project-card/project-card.component';
 
 import './projects-section.styles.scss';
 

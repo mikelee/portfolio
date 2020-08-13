@@ -1,6 +1,6 @@
 @import '../../variables';
 
-.project-square {
+.project-card {
     height: 50rem;
     width: 40rem;
     position: relative;
@@ -88,7 +88,7 @@
 
 :root {
     @media screen and (max-width: 900px) {
-        .project-square {
+        .project-card {
             height: 40rem;
             width: 32rem;
 
@@ -103,7 +103,7 @@
     }
 
     @media screen and (max-width: 480px) {
-        .project-square {
+        .project-card {
             height: 35rem;
             width: 28rem;
 
