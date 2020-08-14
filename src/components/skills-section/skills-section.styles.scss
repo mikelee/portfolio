@@ -55,6 +55,7 @@
   --color-git:         #F14E32;
   --color-html:        #E34F26;
   --color-javascript:  #F7DF1E;
+  --color-jest:        #C21325;
   --color-mongodb:     #47A248;
   --color-mysql:       #4479A1;
   --color-nodejs:      #339933;
@@ -196,6 +197,19 @@
     fill: var(--color-javascript);
   }
 
+  /* Javascript */
+  .color-jest {
+    background-color: var(--color-jest);
+  }
+  .color-jest::after,
+  .color-jest::before {
+    border-top-color: var(--color-jest);
+    border-bottom-color: var(--color-jest);
+  }
+  .color-jest:hover {
+    fill: var(--color-jest);
+  }
+
   /* MongoDB */
   .color-mongodb {
     background-color: var(--color-mongodb);
@@ -295,7 +309,11 @@
   .javascript {
     color: var(--color-javascript);
   }
-  
+
+  .jest {
+    color: var(--color-jest);
+  }
+
   .mongodb {
     color: var(--color-mongodb);
   }
