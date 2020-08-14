@@ -7,8 +7,18 @@ class SkillsSection extends React.Component {
     super(props);
 
     this.state = {
-      tech: ''
+      tech: 'Hover \u2192'
     };
+  }
+
+  componentDidMount() {
+    let deviceWidth = window.innerWidth;
+
+    if (deviceWidth <= 1000) {
+      this.setState({
+        tech: 'Hover \u2193'
+      });
+    }
   }
 
   changeText(e) {
