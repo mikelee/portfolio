@@ -50,13 +50,11 @@
   /* Colors */
   --color-hex-default: #000000;
   --color-hex-hover:   #FFFFFF;
-  --color-bootstrap:   #563D7C;
   --color-css:         #1572B6;
   --color-git:         #F14E32;
   --color-html:        #E34F26;
   --color-javascript:  #F7DF1E;
   --color-jest:        #C21325;
-  --color-mongodb:     #47A248;
   --color-mysql:       #4479A1;
   --color-nodejs:      #339933;
   --color-react:       #61DAFB;
@@ -132,19 +130,6 @@
 
   /* Colors */
 
-  /* Bootstrap */
-  .color-bootstrap {
-    background-color: var(--color-bootstrap);
-  }
-  .color-bootstrap::after,
-  .color-bootstrap::before {
-    border-top-color: var(--color-bootstrap);
-    border-bottom-color: var(--color-bootstrap);
-  }
-  .color-bootstrap:hover {
-    fill: var(--color-bootstrap);
-  }
-
   /* CSS */
   .color-css {
     background-color: var(--color-css);
@@ -197,7 +182,7 @@
     fill: var(--color-javascript);
   }
 
-  /* Javascript */
+  /* Jest */
   .color-jest {
     background-color: var(--color-jest);
   }
@@ -208,19 +193,6 @@
   }
   .color-jest:hover {
     fill: var(--color-jest);
-  }
-
-  /* MongoDB */
-  .color-mongodb {
-    background-color: var(--color-mongodb);
-  }
-  .color-mongodb::after,
-  .color-mongodb::before {
-    border-top-color: var(--color-mongodb);
-    border-bottom-color: var(--color-mongodb);
-  }
-  .color-mongodb:hover {
-    fill: var(--color-mongodb);
   }
 
   /* MySQL */
@@ -290,10 +262,6 @@
 
 
   /* Text colors on hover */
-  .bootstrap {
-    color: var(--color-bootstrap);
-  }
-  
   .css {
     color: var(--color-css);
   }
@@ -312,10 +280,6 @@
 
   .jest {
     color: var(--color-jest);
-  }
-
-  .mongodb {
-    color: var(--color-mongodb);
   }
   
   .mysql {
@@ -436,4 +400,3 @@
     }
   }
 }
-
